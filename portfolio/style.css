@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+.nav-bar{
+    display: flex;
+    height: 50px;
+    gap: 5px;
+    background-color: black;
+    align-items: center;
+    justify-content: center
+}
+
+li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.img-back{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+/* -----GRID LANDING PAGE------ */
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "titleaboutme titleaboutme"
+    "img-about-me about-me-paragh";
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding-bottom: 70px;
+}
+
+.titleaboutme{
+    grid-area: titleaboutme;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-about-me{
+    grid-area: img-about-me;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 200px;
+    width: 200px;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+
+.about-me-paragh{
+    grid-area: about-me-paragh;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.93rem;
+    font-weight: 100;
+
+}
+
+/* ----NEW CODE LINES---- */
+
