@@ -44,17 +44,19 @@ li a:hover{
     display: grid;
     grid-template-areas: 
     "titleaboutme titleaboutme"
-    "img-about-me about-me-paragh";
+    "about-me-paragh img-about-me";
     background-color: rgb(37, 37, 37);
     color: white;
     padding-bottom: 70px;
 }
 
-.titleaboutme{
+.my-name-h1{
     grid-area: titleaboutme;
-    text-align: center;
+    text-align: left;
+    margin-left: 1.5rem;
     margin-top: 15px;
     padding-bottom: 30px;
+    letter-spacing: 8px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -63,21 +65,20 @@ li a:hover{
     background-repeat: no-repeat;
     object-fit: cover;
     object-position: 0 80%;
-    height: 200px;
-    width: 200px;
-    margin-right: 8px;
-    margin-left: 8px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: 8px;
 }
 
 .about-me-paragh{
     grid-area: about-me-paragh;
-    margin-right: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 0.93rem;
     font-weight: 100;
+    margin-left: 8px;
 
 }
 
-/* ----NEW CODE LINES---- */
-
+/* ----CURRICULUM QUALIFICATIONS---- */
