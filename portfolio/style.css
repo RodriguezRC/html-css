@@ -30,24 +30,16 @@ li {
 li a:hover{
     border-bottom: 2px solid white;
 }
-
-.img-back{
-    object-fit: cover;
-    height: 400px;
-    width: 100%;
-    display: block;
-}
-
 /* -----GRID LANDING PAGE------ */
 
 .grid-container{
     display: grid;
     grid-template-areas: 
-    "titleaboutme titleaboutme"
-    "about-me-paragh img-about-me";
+    "titleaboutme titleaboutme titleaboutme"
+    "about-me-paragh about-me-paragh img-about-me"
+    "html5-logo css3-logo img-about-me";
     background-color: rgb(37, 37, 37);
     color: white;
-    padding-bottom: 70px;
 }
 
 .my-name-h1{
@@ -71,6 +63,7 @@ li a:hover{
     border-radius: 50%;
     margin-left: auto;
     margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .about-me-paragh{
@@ -79,7 +72,18 @@ li a:hover{
     font-size: 0.93rem;
     font-weight: 100;
     margin-left: 8px;
+    text-align: center;
 
+}
+
+.html5-logo{
+    grid-area: html5-logo;
+}
+
+.css3-logo{
+    grid-area: css3-logo;
+    height: 150px;
+    width: 150px;
 }
 
 /* ----CURRICULUM QUALIFICATIONS---- */
