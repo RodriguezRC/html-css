@@ -67,6 +67,7 @@ li a:hover{
     object-position: 0 80%;
     height: 400px;
     width: 400px;
+    border: 7px solid white;
     border-radius: 50%;
     margin-left: auto;
     margin-right: 8px;
