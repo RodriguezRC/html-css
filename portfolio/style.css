@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -18,7 +20,7 @@ li {
     list-style: none;
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     height: 50px;
     gap: 5px;
@@ -27,33 +29,23 @@ li {
     justify-content: center
 }
 
-li a:hover{
+li a:hover {
     border-bottom: 2px solid white;
 }
+
 /* -----GRID LANDING PAGE------ */
 
-.grid-container{
-    display: grid;
-    grid-template-areas: 
-    "titleaboutme titleaboutme titleaboutme"
-    "about-me-paragh about-me-paragh img-about-me"
-    "html5-logo css3-logo img-about-me";
-    background-color: rgb(37, 37, 37);
+.container{
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
     color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.my-name-h1{
-    grid-area: titleaboutme;
-    text-align: left;
-    margin-left: 1.5rem;
-    margin-top: 15px;
-    padding-bottom: 30px;
-    letter-spacing: 8px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.img-about-me{
-    grid-area: img-about-me;
+.img-about-me {
     background-repeat: no-repeat;
     object-fit: cover;
     object-position: 0 80%;
@@ -61,29 +53,13 @@ li a:hover{
     width: 400px;
     border: 7px solid white;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: 8px;
-    margin-bottom: 8px;
+    margin: 8px;
+
 }
 
-.about-me-paragh{
-    grid-area: about-me-paragh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.93rem;
-    font-weight: 100;
-    margin-left: 8px;
+
+.my-name-h1{
+    letter-spacing: 10px;
+    font-size: 3rem;
     text-align: center;
-
 }
-
-.html5-logo{
-    grid-area: html5-logo;
-}
-
-.css3-logo{
-    grid-area: css3-logo;
-    height: 150px;
-    width: 150px;
-}
-
-/* ----CURRICULUM QUALIFICATIONS---- */
