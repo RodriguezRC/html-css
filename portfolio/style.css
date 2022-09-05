@@ -71,7 +71,7 @@ li a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 656px){
+@media (max-width: 675px){
     .about-me-paragh{
         font-size: 0.93rem;
         font-weight: bold;
