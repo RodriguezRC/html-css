@@ -61,17 +61,23 @@ li a:hover {
 
 .my-name-h1{
     letter-spacing: 10px;
-    font-size: 3rem;
+    font-size: 4.5rem;
     text-align: center;
 }
 
 
 .about-me-paragh{
-    font-size: 0.93rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
-@media (max-width: 656px){
+
+.social-icons{
+    margin-top: 5%;
+}
+
+
+@media (max-width: 675px){
     .about-me-paragh{
         font-size: 0.93rem;
         font-weight: bold;
