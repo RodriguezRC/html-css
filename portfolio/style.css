@@ -39,7 +39,7 @@ li a:hover {
     display: flex;
     background-color: rgb(27, 27, 27);
     width: 100%;
-    height: 750px;
+    height: 500px;
     color: white;
     align-items: center;
     justify-content: space-around;
@@ -84,8 +84,14 @@ li a:hover {
         text-align: center;
     }
 
+    .my-name-h1{
+        font-size: 1.8rem;
+    }
+
     .img-about-me{
         margin-bottom: 5%;
+        height: 300px;
+        width: 300px;
         order: 1;
     }
     .about-me{
@@ -96,4 +102,5 @@ li a:hover {
         margin-top: 3%;
         padding-bottom: 10px;
     }
+
 }
