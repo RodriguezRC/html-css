@@ -78,13 +78,16 @@ li a:hover {
 
 
 section{
+    display: flex;
     height: 400px;
     width: 100%;
     background-color: rgb(34, 34, 34);
+    justify-content: center;
 }
 
 .section-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 
@@ -94,6 +97,17 @@ section{
     color: white;
     font-size: 2rem;
 }
+
+
+.border{
+    height: 100px;
+    border-left: 2px solid white;
+}
+
+
+
+
+/* ------------- MEDIA ------------ */
 
 @media (max-width: 1308px){
     .img-about-me{
