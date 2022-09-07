@@ -33,7 +33,7 @@ li a:hover {
     border-bottom: 2px solid white;
 }
 
-/* -----GRID LANDING PAGE------ */
+/* -----FLEX LANDING PAGE------ */
 
 .container{
     display: flex;
@@ -77,12 +77,23 @@ li a:hover {
 }
 
 
-.section{
+section{
     height: 400px;
     width: 100%;
     background-color: rgb(34, 34, 34);
 }
 
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.description{
+    color: white;
+    font-size: 2rem;
+}
 
 @media (max-width: 1308px){
     .img-about-me{
@@ -90,8 +101,6 @@ li a:hover {
         width: 300px;
     }
 }
-
-
 
 @media (max-width: 770px){
     .about-me-paragh{
