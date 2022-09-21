@@ -65,7 +65,6 @@ li a:hover {
     text-align: center;
 }
 
-
 .about-me-paragh{
     font-size: 1.3rem;
     font-weight: bold;
@@ -93,7 +92,7 @@ section{
 
 }
 
-.description{
+.description-text{
     color: white;
     font-size: 2rem;
 }
@@ -105,9 +104,9 @@ section{
 }
 
 
-
-
 /* ------------- MEDIA ------------ */
+
+
 
 @media (max-width: 1308px){
     .img-about-me{
@@ -119,7 +118,7 @@ section{
 @media (max-width: 770px){
     .about-me-paragh{
         font-size: 0.93rem;
-        font-weight: bold;
+        font-weight: bold; 
         text-align: center;
     }
 
@@ -142,4 +141,4 @@ section{
         padding-bottom: 10px;
     }
 
-}
+} 
