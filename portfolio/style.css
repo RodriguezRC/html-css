@@ -26,7 +26,9 @@ li {
     gap: 5px;
     background-color: black;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 
 li a:hover {
@@ -58,11 +60,19 @@ li a:hover {
 
 }
 
+.my-name{
+    display: flex;
+    gap: 2%;
+}
 
-.my-name-h1{
+.my-name-tags{
     letter-spacing: 10px;
     font-size: 3.9vw;
     text-align: center;
+}
+
+.second-name{
+    color: #008F8C;
 }
 
 .about-me-paragh{
