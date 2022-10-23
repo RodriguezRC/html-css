@@ -20,5 +20,4 @@ for (let posicaoLetraPrimeiroNome = 0; posicaoLetraPrimeiroNome < firstNameArray
             efeitoDigitalizarSegundoNome()
         }
     }, 150 * posicaoLetraPrimeiroNome)
-    194915
 }
